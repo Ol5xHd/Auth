@@ -14,8 +14,8 @@ namespace model_const {
 // struct for storing registered users
 struct UserNode {
 	UserNode(char* inName, char* inPasswd) {
-		strcpy_s(name, inName);
-		strcpy_s(passwd, inPasswd);
+		strcpy(name, inName);
+		strcpy(passwd, inPasswd);
 		next = nullptr;
 	}
 
