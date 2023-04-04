@@ -1,7 +1,5 @@
 # Auth
 
-Test app for the 1inch Hardware wallet team.
-
 Very simple application based on MVC pattern and custom memory control that allows to:
 
 register new users;
